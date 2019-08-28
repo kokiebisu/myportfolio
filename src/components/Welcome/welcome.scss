@@ -1,0 +1,46 @@
+.welcome {
+  display: inline-block;
+  margin: 4rem 0 2rem 7rem;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 600;
+}
+
+////////////////////////////////////
+// BAR
+
+.welcome h1 {
+  overflow: hidden;
+  font-size: 4rem;
+  border-right: 0.15rem solid white;
+
+  white-space: nowrap;
+  animation: typing 1s ease-in, blink 1s step-end infinite;
+}
+
+.welcome h1 {
+  overflow: hidden;
+  font-size: 4rem;
+  border-right: 0.15rem solid white;
+  white-space: nowrap;
+  animation: typing 1s ease-in, blink 1s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}

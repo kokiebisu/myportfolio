@@ -1,0 +1,89 @@
+////////////////////////////////////
+// SIDEBAR
+
+.sidebar {
+  background-color: var(--grey-dark-1);
+  flex: 0 0 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50rem;
+  border-bottom-left-radius: 0.7rem;
+}
+
+.side-nav {
+  margin-top: 3.5rem;
+  list-style: none;
+  font-size: 1.4rem;
+  &__item {
+    position: relative;
+    &:not(:last-child) {
+      margin-bottom: 0.5rem;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 3px;
+      background-color: var(--grey-light-3);
+      transform: scaleY(0);
+      transition: transform cubic-bezier(1, 0, 0, 1) 0.5s;
+    }
+  }
+
+  &__item:hover::before {
+    transform: scaleY(1);
+  }
+
+  &__link:link,
+  &__link:visited {
+    text-decoration: none;
+    color: var(--grey-dark-2);
+    display: block;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+  }
+
+  &__link:hover {
+    letter-spacing: 1.5px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    transition: all 0.3s ease-in;
+    color: var(--grey-light-3);
+  }
+
+  &__text {
+    padding-left: 2rem;
+  }
+
+  &__icon {
+    width: 2rem;
+    height: 2rem;
+    fill: var(--grey-light-3);
+  }
+}
+
+////////////////////////////////////
+// LEGAL
+
+.legal {
+  font-size: 1.2rem;
+  color: var(--grey-light-4);
+  text-align: center;
+  padding: 2.5rem;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(-2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

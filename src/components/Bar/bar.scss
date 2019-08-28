@@ -1,0 +1,44 @@
+.bar {
+  height: 2rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background-color: var(--grey-light-4);
+  position: relative;
+}
+
+.button {
+  &__mark {
+    display: none;
+    position: relative;
+    height: 1.5rem;
+    width: 1.5rem;
+    left: 0.77rem;
+    top: 0.25rem;
+  }
+
+  &__img {
+    &--1 {
+      position: absolute;
+      top: 0.2rem;
+      left: 0.8rem;
+      height: 1.5rem;
+      width: 1.5rem;
+    }
+
+    &--2 {
+      position: absolute;
+      top: 0.2rem;
+      left: 2.7rem;
+      height: 1.5rem;
+      width: 1.5rem;
+    }
+
+    &--3 {
+      position: absolute;
+      top: 0.2rem;
+      left: 4.7rem;
+      height: 1.5rem;
+      width: 1.5rem;
+    }
+  }
+}
