@@ -1,22 +1,23 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
+import Index from './pages/index';
+import About from './pages/about';
+import Contact from './pages/contact';
+import Projects from './pages/projects';
 import Welcome from './components/Welcome';
-import Bar from './components/Bar';
-import Sidebar from './components/Sidebar';
-import Main from './components/Main';
 
 const App = () => {
   return (
-    <div className="App">
+    <Router>
       <Welcome />
       <div className="container">
-        <Bar />
-        <div className="content">
-          <Sidebar />
-          <Main />
-        </div>
+        <Route exact path="/" component={Index} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/projects" component={Projects} />
       </div>
-    </div>
+    </Router>
   );
 };
 
