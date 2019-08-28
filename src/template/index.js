@@ -1,17 +1,13 @@
-import React from 'react';
-import Bar from '../components/Bar';
+import React, { Fragment } from 'react';
 import Sidebar from '../components/Sidebar';
+import Bar from '../components/Bar';
 
-const App = props => {
-  return (
-    <div>
-      <Bar />
-      <div className="content">
-        <Sidebar />
-        {props.children}
-      </div>
+export default props => (
+  <Fragment>
+    <Bar />
+    <div className="content">
+      <Sidebar />
+      {props.children}
     </div>
-  );
-};
-
-export default App;
+  </Fragment>
+);

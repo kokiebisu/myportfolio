@@ -1,5 +1,5 @@
 .container {
-  animation: fadein 1s ease-in;
+  animation: frombottom 1s ease-in;
   max-width: 100rem;
   margin: 2rem auto;
   background-color: var(--grey-light-1);
@@ -10,4 +10,15 @@
 
 .content {
   display: flex;
+}
+
+@keyframes frombottom {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

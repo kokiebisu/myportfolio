@@ -30,11 +30,11 @@ export default () => {
           </Link>
         </li>
         <li class="side-nav__item">
-          <Link to="/contact" class="side-nav__link">
+          <Link class="side-nav__link">
             <div className="side-nav__icon">
               <Heart />
             </div>
-            <span class="side-nav__text">Contact</span>
+            <span class="side-nav__text">Hopefully Soon...</span>
           </Link>
         </li>
       </ul>
