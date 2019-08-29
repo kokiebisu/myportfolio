@@ -30,17 +30,17 @@ export default () => {
           </Link>
         </li>
         <li class="side-nav__item">
-          <Link class="side-nav__link">
+          <Link to="/skills" class="side-nav__link">
             <div className="side-nav__icon">
               <Heart />
             </div>
-            <span class="side-nav__text">Hopefully Soon...</span>
+            <span class="side-nav__text">Skills</span>
           </Link>
         </li>
       </ul>
       <legal class="legal">
-        Created by <br />
-        Kenichi Okiebisu
+        Created with <br />
+        React + Grommet
       </legal>
     </nav>
   );

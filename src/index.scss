@@ -18,10 +18,6 @@ Grey dark 3: #999
 */
 
 :root {
-  --primary: #b24592;
-  --primary-light: ;
-  --primary-dark: #f15f79;
-
   --grey-light-1: #faf9f9;
   --grey-light-2: #f4f2f2;
   --grey-light-3: #f0eeee;
@@ -51,11 +47,51 @@ html {
 }
 
 body {
-  background-image: linear-gradient(var(--primary), var(--primary-dark));
+  background: linear-gradient(
+    61deg,
+    #ee5959,
+    #bb3d3d,
+    #e19a47,
+    #bcbf43,
+    #43bfbb,
+    #4387bf,
+    #5c43bf,
+    #9843bf,
+    #bf4394,
+    #bf436e,
+    #bf4343
+  );
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
+  min-height: 90vh;
+  background: linear-gradient(
+    61deg,
+    #ee5959,
+    #bb3d3d,
+    #e19a47,
+    #bcbf43,
+    #43bfbb,
+    #4387bf,
+    #5c43bf,
+    #9843bf,
+    #bf4394,
+    #bf436e,
+    #bf4343
+  );
+  background-size: 2200% 2200%;
+
+  animation: AnimationName 300s ease infinite;
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 7% 0%;
+  }
+  50% {
+    background-position: 94% 100%;
+  }
+  100% {
+    background-position: 7% 0%;
+  }
 }

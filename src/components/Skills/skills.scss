@@ -1,0 +1,64 @@
+.skills {
+  margin: 0.8rem 3rem 0.5rem 3rem;
+  h2 {
+    margin: 3rem 3rem 1rem 3rem;
+    display: inline-block;
+    font-size: 4rem;
+    color: var(--grey-dark-1);
+    visibility: hidden;
+    animation: moveup 1s;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+  }
+
+  &__container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    justify-content: center;
+  }
+  &__skill {
+    padding: 1rem 1rem 1rem 1rem;
+    position: relative;
+
+    &--1 {
+      margin: 0 2rem 1rem 5rem;
+      visibility: hidden;
+      animation: moveup 1s;
+      animation-delay: 0.5s;
+      animation-fill-mode: forwards;
+    }
+
+    &--2 {
+      margin: 0 2rem 1rem 5rem;
+      visibility: hidden;
+      animation: moveup 1s;
+      animation-delay: 0.9s;
+      animation-fill-mode: forwards;
+    }
+
+    img {
+      width: 9rem;
+      height: 9rem;
+      border-radius: 50%;
+      border-color: var(--grey-light-1);
+      position: absolute;
+      top: 3rem;
+      right: 3rem;
+    }
+  }
+}
+
+@keyframes moveup {
+  from {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(2rem);
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}

@@ -12,35 +12,27 @@
 .welcome h1 {
   overflow: hidden;
   font-size: 4rem;
-  border-right: 0.15rem solid white;
+  // border-right: 0.15rem solid white;
 
   white-space: nowrap;
-  animation: typing 1s ease-in, blink 1s step-end infinite;
+  // animation: typing 0.7s ease-in;
 }
 
-.welcome h1 {
-  overflow: hidden;
-  font-size: 4rem;
-  border-right: 0.15rem solid white;
-  white-space: nowrap;
-  animation: typing 1s ease-in, blink 1s step-end infinite;
-}
+// @keyframes typing {
+//   from {
+//     width: 0;
+//   }
+//   to {
+//     width: 100%;
+//   }
+// }
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes blink {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: white;
-  }
-}
+// @keyframes blink {
+//   from,
+//   to {
+//     border-color: transparent;
+//   }
+//   50% {
+//     border-color: white;
+//   }
+// }
