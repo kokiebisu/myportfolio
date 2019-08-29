@@ -2,7 +2,6 @@ import React from 'react';
 import './skills.scss';
 import { Meter } from 'grommet';
 
-import javascript from '../../assets/img/javascript_logo.png';
 import react from '../../assets/img/react.png';
 import sass from '../../assets/img/sass.png';
 import node from '../../assets/img/nodejs.jpg';
