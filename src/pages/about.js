@@ -4,6 +4,6 @@ import About from '../components/About';
 
 export default () => (
   <Template>
-    <About />{' '}
+    <About />
   </Template>
 );

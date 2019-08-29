@@ -3,6 +3,12 @@ import './skills.scss';
 import { Meter } from 'grommet';
 
 import javascript from '../../assets/img/javascript_logo.png';
+import react from '../../assets/img/react.png';
+import sass from '../../assets/img/sass.png';
+import node from '../../assets/img/nodejs.jpg';
+import django from '../../assets/img/django.png';
+import mongo from '../../assets/img/mongo.png';
+import java from '../../assets/img/java.jpg';
 
 export default () => (
   <div className="skills">
@@ -12,7 +18,7 @@ export default () => (
         <Meter
           values={[
             {
-              value: 60,
+              value: 80,
               label: 'sixty',
               onClick: () => {}
             }
@@ -23,13 +29,13 @@ export default () => (
           size="160"
           thickness="small"
         />
-        <img src={javascript} alt="" />
+        <img src={react} alt="" />
       </div>
       <div className="skills__skill skills__skill--1">
         <Meter
           values={[
             {
-              value: 60,
+              value: 85,
               label: 'sixty',
               onClick: () => {},
               color: 'accent-2'
@@ -41,13 +47,13 @@ export default () => (
           size="160"
           thickness="small"
         />
-        <img src={javascript} alt="" />
+        <img src={sass} alt="" />
       </div>
       <div className="skills__skill skills__skill--1">
         <Meter
           values={[
             {
-              value: 60,
+              value: 65,
               label: 'sixty',
               onClick: () => {},
               color: 'accent-3'
@@ -59,13 +65,13 @@ export default () => (
           size="160"
           thickness="small"
         />
-        <img src={javascript} alt="" />
+        <img src={node} alt="" />
       </div>
       <div className="skills__skill skills__skill--2">
         <Meter
           values={[
             {
-              value: 60,
+              value: 70,
               label: 'sixty',
               onClick: () => {},
               color: 'accent-4'
@@ -77,7 +83,7 @@ export default () => (
           size="160"
           thickness="small"
         />
-        <img src={javascript} alt="" />
+        <img src={django} alt="" />
       </div>
       <div className="skills__skill skills__skill--2">
         <Meter
@@ -95,13 +101,13 @@ export default () => (
           size="160"
           thickness="small"
         />
-        <img src={javascript} alt="" />
+        <img src={java} alt="" />
       </div>
       <div className="skills__skill skills__skill--2">
         <Meter
           values={[
             {
-              value: 60,
+              value: 55,
               label: 'sixty',
               onClick: () => {},
               color: 'neutral-3'
@@ -113,7 +119,7 @@ export default () => (
           size="160"
           thickness="small"
         />
-        <img src={javascript} alt="" />
+        <img src={mongo} alt="" />
       </div>
     </div>
   </div>

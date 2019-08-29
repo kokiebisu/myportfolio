@@ -25,9 +25,9 @@ export default () => (
       </div>
       <div class="main__description">
         <p class="main__description--text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
+          Hi there. I'm Ken. I came to Vancouver last year to study at British
+          Columbia Institute of Technology. I love playing the guitar and
+          enjoying music during my free time.
         </p>
       </div>
     </div>
@@ -36,18 +36,18 @@ export default () => (
       <div class="main__timeline">
         <div class="main__timeline__circle main__timeline__circle--1"></div>
         <div class="main__timeline--event main__timeline--event--1">
-          <h2>2018</h2>
-          <p>Arrived in Vancouver 😄</p>
+          <h2>Past</h2>
+          <p>Studied Political Science 🎓</p>
         </div>
         <div class="main__timeline__circle main__timeline__circle--2"></div>
         <div class="main__timeline--event main__timeline--event--2">
-          <h2>Hello</h2>
-          <p>Graduated from BCIT</p>
+          <h2>Present</h2>
+          <p>Studying at BCIT 👨‍💻</p>
         </div>
         <div class="main__timeline__circle main__timeline__circle--3"></div>
         <div class="main__timeline--event main__timeline--event--3">
-          <h2>Hello</h2>
-          <p>Graduated from BCIT</p>
+          <h2>Future</h2>
+          <p>Hoping to get a job in Vancouver 😄</p>
         </div>
       </div>
     </div>
