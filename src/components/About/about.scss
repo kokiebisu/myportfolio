@@ -10,6 +10,10 @@
       width: 80%;
       margin: 0 auto;
     }
+    @media (max-width: 900px) {
+      width: 100%;
+      margin: 0 auto;
+    }
   }
 
   &__general {
@@ -73,10 +77,17 @@
       @media (max-width: 860px) {
         align-items: center;
         width: 80%;
+        margin: 0 auto;
       }
 
       @media (max-width: 500px) {
         margin-top: 1rem;
+        font-size: 1rem;
+        width: 90%;
+      }
+      @media (max-width: 400px) {
+        margin-top: 1rem;
+        font-size: 0.7rem;
       }
     }
 
