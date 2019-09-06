@@ -10,7 +10,9 @@ export default () => (
     <div className="projects__cards">
       <div className="projects__card projects__card--1">
         <a class="anchor" href="">
-          <img src={ratemycourse} alt="" />
+          <div>
+            <img src={ratemycourse} alt="" />
+          </div>
           <h2>ratemycourse</h2>
           <p>Evalute your course. Don't waste time.</p>
           <p>2019/08/27</p>

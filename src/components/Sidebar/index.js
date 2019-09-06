@@ -15,34 +15,34 @@ import generator from '../../assets/img/generator.png';
 
 export default () => {
   return (
-    <nav class="sidebar">
-      <ul class="side-nav">
-        <li class="side-nav__item">
-          <Link to="/about" class="side-nav__link">
+    <nav className="sidebar">
+      <ul className="side-nav">
+        <li className="side-nav__item">
+          <Link to="/about" className="side-nav__link">
             <div className="side-nav__icon">
               <Sandbox />
             </div>
-            <span class="side-nav__text">About Me</span>
+            <span className="side-nav__text">About Me</span>
           </Link>
         </li>
-        <li class="side-nav__item">
-          <Link to="/projects" class="side-nav__link">
+        <li className="side-nav__item">
+          <Link to="/projects" className="side-nav__link">
             <div className="side-nav__icon">
               <Headphones />
             </div>
-            <span class="side-nav__text">Projects</span>
+            <span className="side-nav__text">Projects</span>
           </Link>
         </li>
-        <li class="side-nav__item">
-          <Link to="/skills" class="side-nav__link">
+        <li className="side-nav__item">
+          <Link to="/skills" className="side-nav__link">
             <div className="side-nav__icon">
               <Heart />
             </div>
-            <span class="side-nav__text">Skills</span>
+            <span className="side-nav__text">Skills</span>
           </Link>
         </li>
       </ul>
-      <legal class="legal">
+      <div className="legal">
         Created with <br />
         <div>
           <a href="https://github.com/facebook/react">
@@ -55,7 +55,7 @@ export default () => {
             <img src={generator} alt="" className="legal__img legal__img--3" />
           </a>
         </div>
-      </legal>
+      </div>
     </nav>
   );
 };

@@ -1,6 +1,7 @@
 import React from 'react';
 import './welcome.scss';
 import { Clock } from 'grommet';
+import styled from 'styled-components';
 
 export default () => {
   const today = new Date();
@@ -8,11 +9,18 @@ export default () => {
   time = parseInt(time, 10);
   return (
     <div className="welcome">
-      <h1>{getMessage(time)}</h1>
-      <Clock type="digital" />
+      {getMessage(time)}
+      <CustomClock type="digital" />
     </div>
   );
 };
+
+const CustomClock = styled(Clock)`
+  @media (max-width: 600px) {
+    margin: 2rem auto;
+    text-align: center;
+  }
+`;
 
 const getMessage = time => {
   if (time > 90000 && time <= 120000) {

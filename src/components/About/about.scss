@@ -5,17 +5,24 @@
   display: flex;
 
   &__left {
-    width: 65%;
+    width: 80%;
+    @media (max-width: 900px) {
+      width: 80%;
+      margin: 0 auto;
+    }
   }
 
   &__general {
     display: flex;
     flex-direction: row;
     margin: 2rem;
+
+    @media (max-width: 740px) {
+      flex-direction: column;
+    }
   }
 
   &__avatar {
-    width: 35%;
     &--image {
       width: 12rem;
       height: 12rem;
@@ -23,8 +30,30 @@
       margin: 4.5rem 0 3rem 5rem;
       border-color: white;
       box-shadow: 0 1rem 3rem rgba(black, 0.1);
+      @media (max-width: 750px) {
+        width: 10rem;
+        height: 10rem;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+
+    @media (max-width: 660px) {
+      justify-self: center;
     }
     animation: fadein 1s ease-in;
+  }
+
+  &__name {
+    display: none;
+
+    @media (max-width: 500px) {
+      font-size: 2rem;
+      display: inline-block;
+      margin: 0 auto;
+      margin-top: 2rem;
+      font-weight: 600;
+    }
   }
 
   &__hash {
@@ -34,10 +63,21 @@
     display: inline-block;
     border-radius: 3rem;
     margin: 0.4rem;
+    max-height: 3rem;
     box-shadow: 0 1rem 3rem rgba(black, 0.1);
+
     &--container {
       width: 65%;
       margin: 5rem 2rem 0 3rem;
+
+      @media (max-width: 860px) {
+        align-items: center;
+        width: 80%;
+      }
+
+      @media (max-width: 500px) {
+        margin-top: 1rem;
+      }
     }
 
     &--1 {
@@ -71,10 +111,28 @@
 
     box-shadow: 0 1rem 3rem rgba(black, 0.1);
     font-weight: 500;
+    @media (max-width: 660px) {
+      margin: 1rem 1rem 0.5rem 2rem;
+    }
+
+    @media (max-width: 620px) {
+      display: none;
+    }
+
     &--text {
       display: inline-block;
-      margin: 4rem;
+      margin: 3rem;
       font-size: 1.5rem;
+
+      @media (max-width: 800px) {
+        font-size: 1.5rem;
+        margin: 2rem;
+      }
+
+      @media (max-width: 660px) {
+        font-size: 1.5rem;
+        margin: 1rem;
+      }
     }
   }
 
@@ -84,10 +142,18 @@
     align-self: center;
     background-color: var(--grey-light-4);
     display: block;
+
+    @media (max-width: 900px) {
+      display: none;
+    }
   }
 
   &__right {
     width: 35%;
+
+    @media (max-width: 900px) {
+      display: none;
+    }
   }
 
   &__timeline {
@@ -137,12 +203,24 @@
       box-shadow: 0 1rem 2rem rgba(black, 0.1);
       display: flex;
 
+      @media (max-width: 800px) {
+        width: 30%;
+      }
+
       h2 {
         position: absolute;
         top: 0.7rem;
         left: 2.5rem;
         font-size: 2.5rem;
         font-weight: 500;
+
+        @media (max-width: 850px) {
+          font-size: 2.3rem;
+        }
+
+        @media (max-width: 1150px) {
+          display: none;
+        }
       }
 
       p {
@@ -150,6 +228,10 @@
         top: 5rem;
         left: 2.5rem;
         font-size: 1.3rem;
+
+        @media (max-width: 1150px) {
+          display: none;
+        }
       }
 
       &::before {
