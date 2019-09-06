@@ -44,6 +44,8 @@ Grey dark 3: #999
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  overflow: hidden;
+  height: 100%;
 }
 
 body {
@@ -80,6 +82,8 @@ body {
     #bf4343
   );
   background-size: 2200% 2200%;
+  height: 100%;
+  overflow: auto;
 
   animation: AnimationName 300s ease infinite;
 }
