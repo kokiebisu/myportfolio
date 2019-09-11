@@ -6,16 +6,15 @@
   box-shadow: var(--shadow);
   border-radius: 0.7rem;
   height: 63rem;
+
+  @media (min-width: 1300px) {
+    width: 120rem;
+  }
 }
 
 .content {
   display: flex;
   height: 61rem;
-
-  // @media (max-width: 400px) {
-  //   position: relative;
-  //   top: 6rem;
-  // }
 }
 
 @keyframes frombottom {

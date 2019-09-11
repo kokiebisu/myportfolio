@@ -1,25 +1,31 @@
 .skills {
-  margin: 0.8rem 3rem 0rem 3rem;
+  background-color: blue;
+  width: 100%;
+  margin: 1rem;
+
   h2 {
-    margin: 3rem 3rem 1rem 3rem;
-    display: inline-block;
+    background-color: pink;
+    margin: 2rem 5rem;
+    display: block;
     font-size: 4rem;
     color: var(--grey-dark-1);
     visibility: hidden;
     animation: moveup 1s;
     animation-delay: 0.2s;
     animation-fill-mode: forwards;
+    padding: 2rem 0;
   }
 
   &__container {
-    margin: 0 auto;
+    background-color: cyan;
+    margin: 0 5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-content: center;
     justify-content: center;
   }
   &__skill {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1.5rem;
     position: relative;
     transition: all 0.5s;
 
@@ -28,15 +34,17 @@
     }
 
     &--1 {
-      margin: 0 5.5rem 1rem 5rem;
       visibility: hidden;
       animation: moveup 1s;
       animation-delay: 1s;
       animation-fill-mode: forwards;
+      display: flex;
+      justify-content: space-around;
     }
 
     &--2 {
-      margin: 0 5.5rem 0rem 5rem;
+      display: flex;
+      justify-content: space-around;
       visibility: hidden;
       animation: moveup 1s;
       animation-delay: 1.3s;
@@ -44,13 +52,19 @@
     }
 
     img {
-      width: 9rem;
-      height: 9rem;
+      width: 10rem;
+      height: 10rem;
       border-radius: 50%;
       border-color: var(--grey-light-1);
       position: absolute;
-      top: 4rem;
-      right: 3rem;
+      top: 3.5rem;
+      left: 9.5rem;
+
+      @media (max-width: 1400px) {
+        position: absolute;
+        top: 3.5rem;
+        left: 13rem;
+      }
     }
   }
 }

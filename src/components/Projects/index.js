@@ -10,7 +10,7 @@ export default () => (
     <div className="projects">
       <div className="projects__cards">
         <div className="projects__card projects__card--1">
-          <a class="anchor" href="">
+          <a className="anchor" href="">
             <div>
               <img src={ratemycourse} alt="" />
             </div>

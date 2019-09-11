@@ -25,7 +25,7 @@ export default () => (
           aria-label="meter"
           type="circle"
           round="true"
-          size="150"
+          size="140"
           thickness="small"
         />
         <img src={react} alt="" />
@@ -43,7 +43,7 @@ export default () => (
           aria-label="meter"
           type="circle"
           round="true"
-          size="150"
+          size="140"
           thickness="small"
         />
         <img src={sass} alt="" />
@@ -61,7 +61,7 @@ export default () => (
           aria-label="meter"
           type="circle"
           round="true"
-          size="150"
+          size="140"
           thickness="small"
         />
         <img src={node} alt="" />
@@ -79,7 +79,7 @@ export default () => (
           aria-label="meter"
           type="circle"
           round="true"
-          size="150"
+          size="140"
           thickness="small"
         />
         <img src={django} alt="" />
@@ -97,7 +97,7 @@ export default () => (
           aria-label="meter"
           type="circle"
           round="true"
-          size="150"
+          size="140"
           thickness="small"
         />
         <img src={java} alt="" />
@@ -115,7 +115,7 @@ export default () => (
           aria-label="meter"
           type="circle"
           round="true"
-          size="150"
+          size="140"
           thickness="small"
         />
         <img src={mongo} alt="" />
