@@ -45,7 +45,6 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
   overflow: hidden;
-  height: 100%;
 }
 
 body {
@@ -86,6 +85,10 @@ body {
   overflow: auto;
 
   animation: AnimationName 300s ease infinite;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 @keyframes AnimationName {
