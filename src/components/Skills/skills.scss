@@ -1,10 +1,8 @@
 .skills {
-  background-color: blue;
   width: 100%;
   margin: 1rem;
 
   h2 {
-    background-color: pink;
     margin: 2rem 5rem;
     display: block;
     font-size: 4rem;
@@ -17,7 +15,6 @@
   }
 
   &__container {
-    background-color: cyan;
     margin: 0 5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
