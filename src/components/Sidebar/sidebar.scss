@@ -8,8 +8,10 @@
   flex-direction: column;
   justify-content: space-between;
   border-bottom-left-radius: 0.7rem;
-
-  @media (max-width: 1400px) {
+  @media (min-width: 1250px) and (max-width: 1500px) {
+    height: 48rem;
+  }
+  @media (max-width: 1250px) {
     display: none;
   }
 }

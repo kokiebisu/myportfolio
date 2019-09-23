@@ -7,11 +7,19 @@
   // margin: 4rem;
   height: 100%;
 
+  @media (min-width: 1250px) and (max-width: 1500px) {
+    height: 48rem;
+  }
+
   &__left {
     width: 100%;
     margin: 1rem 2rem;
     display: flex;
     align-items: center;
+
+    @media (min-width: 1250px) and (max-width: 1500px) {
+      width: 60%;
+    }
   }
 
   &__general {
@@ -32,6 +40,10 @@
     width: 90%;
     padding: 5rem;
     align-content: center;
+
+    @media (min-width: 1250px) and (max-width: 1500px) {
+      width: 100%;
+    }
   }
 
   &__avatar {
@@ -46,6 +58,10 @@
       margin: 0 auto;
       border-color: white;
       box-shadow: 0 1rem 3rem rgba(black, 0.1);
+      @media (min-width: 1250px) and (max-width: 1500px) {
+        height: 12rem;
+        width: 12rem;
+      }
     }
     animation: fadein 1s ease-in;
   }
@@ -125,6 +141,10 @@
       display: none;
     }
 
+    @media (min-width: 1250px) and (max-width: 1500px) {
+      margin: 0;
+    }
+
     &--text {
       display: inline-block;
       margin: 3rem;
@@ -149,7 +169,7 @@
     background-color: var(--grey-light-4);
     display: block;
 
-    @media (max-width: 1400px) {
+    @media (max-width: 1200px) {
       display: none;
     }
   }
@@ -157,7 +177,7 @@
   &__right {
     width: 45%;
 
-    @media (max-width: 1400px) {
+    @media (max-width: 1200px) {
       display: none;
     }
   }
