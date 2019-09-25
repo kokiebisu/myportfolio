@@ -7,7 +7,7 @@
   border-radius: 0.7rem;
   height: 63rem;
 
-  @media (min-width: 1250px) {
+  @media (min-width: 1250px) and (max-width: 1400px) {
     height: 50rem;
   }
 }

@@ -8,9 +8,7 @@
   flex-direction: column;
   justify-content: space-between;
   border-bottom-left-radius: 0.7rem;
-  @media (min-width: 1250px) and (max-width: 1500px) {
-    height: 48rem;
-  }
+  height: 100%;
   @media (max-width: 1250px) {
     display: none;
   }

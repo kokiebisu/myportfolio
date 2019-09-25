@@ -1,0 +1,7 @@
+.content {
+  height: 61rem;
+
+  @media (min-width: 1250px) and (max-width: 1400px) {
+    height: 48rem;
+  }
+}
