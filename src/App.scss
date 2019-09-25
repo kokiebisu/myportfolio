@@ -1,6 +1,7 @@
 .container {
   animation: frombottom 0.6s ease-in;
-  width: 70vw;
+  max-width: 90rem;
+  width: 95%;
   margin: 0 auto;
   background-color: var(--grey-light-1);
   box-shadow: var(--shadow);

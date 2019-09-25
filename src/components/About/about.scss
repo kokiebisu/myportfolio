@@ -24,11 +24,10 @@
 
   &__general {
     &--top {
-      margin: 4rem 0;
       display: grid;
       grid-template-columns: 1fr 2fr;
       align-items: center;
-      margin: 1rem 2rem;
+      margin: 1rem 1rem;
       @media (max-width: 800px) {
         grid-template-columns: 1fr;
       }
@@ -38,7 +37,7 @@
     flex-direction: column;
     margin: 0 auto;
     width: 90%;
-    padding: 5rem;
+    padding: 2rem;
     align-content: center;
 
     @media (min-width: 1250px) and (max-width: 1500px) {
@@ -49,7 +48,7 @@
   &__avatar {
     display: flex;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
     &--image {
       width: 15rem;
       height: 15rem;
@@ -244,7 +243,7 @@
           font-size: 2.3rem;
         }
 
-        @media (max-width: 1500px) {
+        @media (max-width: 1250px) {
           display: none;
         }
       }
@@ -255,7 +254,7 @@
         left: 2.5rem;
         font-size: 1.3rem;
 
-        @media (max-width: 1600px) {
+        @media (max-width: 1250px) {
           display: none;
         }
       }
