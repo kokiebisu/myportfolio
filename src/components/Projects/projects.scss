@@ -34,9 +34,10 @@
       width: 23rem;
       border-radius: 0.4rem;
 
-      @media (min-width: 1250px) and (max-width: 1500px) {
-        height: 25rem;
-        width: 19rem;
+      @media (min-width: 1200px) and (max-width: 1500px) {
+        height: 23rem;
+        width: 18rem;
+        margin: 1rem;
       }
     }
     h2 {
