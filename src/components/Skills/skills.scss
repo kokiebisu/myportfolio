@@ -4,6 +4,7 @@
 
   h2 {
     margin: 2rem 5rem;
+    margin-bottom: 1rem;
     display: block;
     font-size: 4rem;
     color: var(--grey-dark-1);
@@ -11,13 +12,10 @@
     animation: moveup 1s;
     animation-delay: 0.2s;
     animation-fill-mode: forwards;
-    padding: 2rem 0;
+    padding: 1rem 0;
   }
 
   &__container {
-    @media (min-width: 1250px) and (max-width: 1500px) {
-      height: 25rem;
-    }
     margin: 0 5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -51,27 +49,31 @@
       animation-fill-mode: forwards;
     }
 
+    div {
+      height: 2rem;
+    }
+
     img {
-      width: 10rem;
-      height: 10rem;
+      width: 50%;
+      height: auto;
       border-radius: 50%;
       border-color: var(--grey-light-1);
       position: absolute;
-      top: 3.5rem;
-      left: 5rem;
+      top: 4rem;
+      left: 4rem;
 
-      @media (max-width: 1400px) {
-        position: absolute;
-        top: 3.5rem;
-        left: 90rem;
-      }
+      // @media (max-width: 1400px) {
+      //   position: absolute;
+      //   top: 3.5rem;
+      //   left: 90rem;
+      // }
 
-      @media (min-width: 1250px) and (max-width: 1500px) {
-        height: 7rem;
-        width: 7rem;
+      @media (min-width: 1250px) {
+        width: 40%;
+        height: auto;
         position: absolute;
-        top: 4.5rem;
-        left: 6.8rem;
+        top: 4.1rem;
+        left: 5.2rem;
       }
     }
   }

@@ -22,7 +22,7 @@ export default () => {
             <div className="side-nav__icon">
               <Sandbox />
             </div>
-            <span className="side-nav__text">About Me</span>
+            <span className="side-nav__text">About</span>
           </Link>
         </li>
         <li className="side-nav__item">

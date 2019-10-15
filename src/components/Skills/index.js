@@ -28,7 +28,9 @@ export default () => (
           size="130"
           thickness="small"
         />
-        <img src={react} alt="" />
+        <div>
+          <img src={react} alt="" />
+        </div>
       </div>
       <div className="skills__skill skills__skill--1">
         <Meter
@@ -46,7 +48,9 @@ export default () => (
           size="130"
           thickness="small"
         />
-        <img src={sass} alt="" />
+        <div>
+          <img src={sass} alt="" />
+        </div>
       </div>
       <div className="skills__skill skills__skill--1">
         <Meter
@@ -64,7 +68,9 @@ export default () => (
           size="130"
           thickness="small"
         />
-        <img src={node} alt="" />
+        <div>
+          <img src={node} alt="" />
+        </div>
       </div>
       <div className="skills__skill skills__skill--2">
         <Meter
@@ -82,7 +88,9 @@ export default () => (
           size="130"
           thickness="small"
         />
-        <img src={django} alt="" />
+        <div>
+          <img src={django} alt="" />
+        </div>
       </div>
       <div className="skills__skill skills__skill--2">
         <Meter
@@ -100,7 +108,9 @@ export default () => (
           size="130"
           thickness="small"
         />
-        <img src={java} alt="" />
+        <div>
+          <img src={java} alt="" />
+        </div>
       </div>
       <div className="skills__skill skills__skill--2">
         <Meter
@@ -118,7 +128,9 @@ export default () => (
           size="130"
           thickness="small"
         />
-        <img src={mongo} alt="" />
+        <div>
+          <img src={mongo} alt="" />
+        </div>
       </div>
     </div>
   </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './about.scss';
 
-import avatar from '../../assets/img/profile-img4.jpg';
+import avatar from '../../assets/img/profile.jpg';
 
 export default () => (
   <main className="main">
