@@ -7,6 +7,7 @@ export default () => (
   <main className="main">
     <div className="main__left">
       <div className="main__general">
+        <h2 className="main__title">About</h2>
         <div className="main__general--top">
           <div className="main__avatar">
             <img
